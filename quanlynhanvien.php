@@ -15,7 +15,7 @@ if (!(isset($_SESSION['role']) && $_SESSION['role'] == "admin")) {
             function confirmDelete(manhanvien) {
                 Swal.fire({
                     title: "Bạn chắc chắn muốn xóa nhân viên này?",
-                    text: "Hành động này không thể hoàn tác!",
+                text: "Hành động này không thể hoàn tác!",
                     icon: "warning",
                     showCancelButton: true,
                     confirmButtonColor: "#3085d6",

@@ -17,7 +17,7 @@
                 <div id="title"> 
                   <div class="col line col-md-4"></div>
                   <div class="col col-md-4"><h1>
-                      đặt vé trực tuyến
+                     đặt vé trực tuyến
                   </h1></div>
                   <div class="col line col-md-4"></div>
               </div>

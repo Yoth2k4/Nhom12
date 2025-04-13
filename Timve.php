@@ -33,7 +33,7 @@
                                   $iduser = $_SESSION['iduser'];
                                   $info = User::getUserInfo($iduser);
                               }
-                            
+                        
                               $conn = DBConnection::Connect();
                               if ($conn->connect_error) {
                                   die("Kết nối không thành công: " . $conn->connect_error);

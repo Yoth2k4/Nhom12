@@ -38,7 +38,6 @@
         }
     }
 
-   $conn = DBConnection::Connect();
     $conn = DBConnection::Connect();
     $location = array($Diemdi, $Diemden);
     $sqlLc = "SELECT * FROM gatau WHERE GT_Ten = ?;";

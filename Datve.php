@@ -10,7 +10,7 @@
     </script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/2217645a51.js" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/2217645a51.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../Nhom17PHP/css/Datve.css">
     <title>Document</title>
 </head>
@@ -38,7 +38,6 @@
         }
     }
 
-   
     $conn = DBConnection::Connect();
     $location = array($Diemdi, $Diemden);
     $sqlLc = "SELECT * FROM gatau WHERE GT_Ten = ?;";

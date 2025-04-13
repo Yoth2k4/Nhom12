@@ -25,7 +25,7 @@ if (!(isset($_SESSION['role']) && $_SESSION['role'] == "admin")) {
                 }).then((result) => {
                     if (result.isConfirmed) {
                         window.location.href = 'indexadmin.php?act=xoanhanvien&manhanvien=' + manhanvien;
-                    }
+                 }
                 });
             }
         </script>

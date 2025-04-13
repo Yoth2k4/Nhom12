@@ -24,7 +24,7 @@
                 <form action="index.php?act=datve" class="input_" method="POST" id="timve">
                     <div class="mb-3 input-ticket ">
                       <label for="exampleFormControlInput1" class="form-label">Điểm xuất phát</label>
-                      <div class="drop_item DiemDi">
+                    <div class="drop_item DiemDi">
                         <!-- <input type="text" class="form-control ipDiemDi" id="exampleFormControlInput1" placeholder="Điểm xuất phát"> -->
                         <select class="form-select" aria-label="Default select example" id="DiemDi" name="DiemDi">
                           <option selected>Điểm đi</option>

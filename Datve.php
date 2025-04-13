@@ -10,13 +10,13 @@
     </script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-     <script src="https://kit.fontawesome.com/2217645a51.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../Nhom17PHP/css/Datve.css">
+        <script src="https://kit.fontawesome.com/2217645a51.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../NHOM9PHP/css/Datve.css">
     <title>Document</title>
 </head>
 <body>
     <?php
-    include "../Nhom17PHP/Model/ticket.php";
+    include "../NHOM9PHP/Model/ticket.php";
     if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["DiemDi"])) {
         $Diemdi = $_POST["DiemDi"];
         $Diemden = $_POST["DiemDen"];
@@ -38,6 +38,7 @@
         }
     }
 
+   
     $conn = DBConnection::Connect();
     $location = array($Diemdi, $Diemden);
     $sqlLc = "SELECT * FROM gatau WHERE GT_Ten = ?;";
@@ -62,7 +63,7 @@
 
         
 
-    
+        
         
     }
     $stmt->close();
@@ -256,20 +257,20 @@
                     <div class="notepad_carriage">
                                 <div class= "carriage_">
                                     <div class="img_carriage">
-                                        <img src="../Nhom17PHP/SourceImg/trainCar2.png" alt="">
+                                        <img src="../NHOM9PHP/SourceImg/trainCar2.png" alt="">
                                         
                                     </div>
                                     <p>Toa còn vé</p>
                                 </div>
                                 <div class= "carriage_">
                                     <div class="img_carriage">
-                                        <img src="../Nhom17PHP/SourceImg/trainCar2.png" alt="">
+                                        <img src="../NHOM9PHP/SourceImg/trainCar2.png" alt="">
                                     </div>
                                     <p>Toa đang chọn</p>
                                 </div>
                                 <div class= "carriage_">
                                     <div class="img_carriage">
-                                        <img src="../Nhom17PHP/SourceImg/trainCar2.png" alt="">
+                                        <img src="../NHOM9PHP/SourceImg/trainCar2.png" alt="">
                                     </div>
                                     <p>Toa hết vé</p>
                                 </div>
@@ -507,7 +508,7 @@
         </div>
         </div> 
     </div> 
-    <script src="../Nhom17PHP/javascript/Datve.js"></script>         
+    <script src="../NHOM9PHP/javascript/Datve.js"></script>         
 </body>
 
 </html>

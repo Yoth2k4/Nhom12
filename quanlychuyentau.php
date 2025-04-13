@@ -37,7 +37,7 @@ if (!(isset($_SESSION['role']) && $_SESSION['role'] == "admin")) {
         <div class="container" style="margin-top:150px;">
             <div class="row title mb-3" style="margin: 50px 0 0 0; width:100%;">
                 <div class="col-4">
-                    <hr>
+                   <hr>
                 </div>
                 <div class="col-4">
                     <h2 style="text-align: center;">QUẢN LÝ CHUYẾN TÀU</h2>

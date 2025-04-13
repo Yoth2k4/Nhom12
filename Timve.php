@@ -36,7 +36,7 @@
                         
                               $conn = DBConnection::Connect();
                               if ($conn->connect_error) {
-                                  die("Kết nối không thành công: " . $conn->connect_error);
+                                 die("Kết nối không thành công: " . $conn->connect_error);
                               }
                               $sql = "SELECT GT_Ten FROM gatau WHERE GT_Ten LIKE ?";
                               $stmt = $conn->prepare($sql);

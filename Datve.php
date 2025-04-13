@@ -49,7 +49,7 @@
         $stmt->bind_param("s", $location[$i]);
         $stmt->execute();
         if ($stmt->errno) {
-            echo "Lỗi truy vấn: " . $stmt->error;
+          echo "Lỗi truy vấn: " . $stmt->error;
         } else {
             $result = $stmt->get_result();
             $row = $result->fetch_assoc();
